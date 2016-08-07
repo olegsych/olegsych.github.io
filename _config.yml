@@ -1,0 +1,10 @@
+# Site settings
+title: Oleg Sych
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://olegsych.com" # the base hostname & protocol for your site
+twitter_username: olegsych
+github_username: olegsych
+linkedin_username: olegsych
+
+# Build settings
+markdown: kramdown
