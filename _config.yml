@@ -6,6 +6,9 @@ twitter_username: olegsych
 github_username: olegsych
 linkedin_username: olegsych
 
+markdown: redcarpet
+highlighter: pygments
+
 collections:
   articles:
     output: true
