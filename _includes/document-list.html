@@ -1,0 +1,16 @@
+<div class="home">
+
+  <ul class="post-list">
+    {% assign collection = site.collections | where:"label",page.collection | first %}
+    {% for document in collection.docs %}
+      {% if document.path != page.path %}
+        <li>
+          <h2>
+            <a class="post-link" href="{{ document.url | prepend: site.baseurl }}">{{ document.title }}</a>
+          </h2>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+</div>

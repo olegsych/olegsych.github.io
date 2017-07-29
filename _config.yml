@@ -8,3 +8,9 @@ linkedin_username: olegsych
 
 # Build settings
 markdown: kramdown
+
+collections:
+  articles:
+    output: true
+    permalink: /:collection/:path/
+    title: Articles
