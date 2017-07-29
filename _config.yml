@@ -6,9 +6,6 @@ twitter_username: olegsych
 github_username: olegsych
 linkedin_username: olegsych
 
-# Build settings
-markdown: kramdown
-
 collections:
   articles:
     output: true
