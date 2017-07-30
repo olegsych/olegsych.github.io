@@ -6,8 +6,10 @@ twitter_username: olegsych
 github_username: olegsych
 linkedin_username: olegsych
 
-markdown: kramdown
 highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
 
 collections:
   articles:
