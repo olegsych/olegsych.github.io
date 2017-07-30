@@ -6,8 +6,8 @@ twitter_username: olegsych
 github_username: olegsych
 linkedin_username: olegsych
 
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 
 collections:
   articles:
