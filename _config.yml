@@ -1,18 +1,9 @@
-# Site settings
 title: Oleg Sych
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://olegsych.com" # the base hostname & protocol for your site
-twitter_username: olegsych
-github_username: olegsych
-linkedin_username: olegsych
+url: "http://olegsych.com"
+show_excerpts: true
 
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  input: GFM
-
-collections:
-  articles:
-    output: true
-    permalink: /:collection/:path/
-    title: Articles
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
