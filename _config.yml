@@ -7,3 +7,15 @@ show_excerpts: true
 theme: minima
 plugins:
   - jekyll-feed
+
+exclude:
+  - init.cmd
+  - CONTRIBUTING.md
+  # Preserve Jekyll 3.10 default exclusions.
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
